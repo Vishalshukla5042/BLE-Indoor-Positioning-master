@@ -1,0 +1,83 @@
+<resources>
+    <string name="app_name">Beacon based Indoor Positioning</string>
+
+    <!-- Beacon -->
+    <string name="beacon">Beacon</string>
+    <string name="beacon_ibeacon">iBeacon</string>
+    <string name="beacon_eddystone">Eddystone</string>
+    <string name="beacon_rssi">RSSI</string>
+    <string name="beacon_tx">TX</string>
+    <string name="beacon_uuid">UUID</string>
+    <string name="beacon_major">Major</string>
+    <string name="beacon_minor">Minor</string>
+    <string name="distance">Distance</string>
+    <!-- String related to Login -->
+    <string name="title_activity_login">Login</string>
+    <string name="password_reset_hint">Enter password</string>
+    <string name="repassword_reset_hint">Re-enter password</string>
+    <string name="login_user_name_hint">username</string>
+    <string name="login_user_question">Problem Subject</string>
+    <string name="login_user_answer">What is inside your mind</string>
+    <string name="describe_user_problem">Describe User problem</string>
+    <string name="hint_of_user_forreview">Please provide your review . Write here</string>
+    <string name="user_name_hint">phone or email</string>
+    <string name="action_resetpassword">Reset password</string>
+    <string name="email_hint">email</string>
+    <string name="Phone_hint">phone</string>
+    <string name="login_user_name_password">password</string>
+    <string name="action_sign_in">Login</string>
+    <string name="action_submit">Submit</string>
+    <string name="forgot_password">Forgot password?</string>
+    <string name="register">Register</string>
+    <string name="error_invalid_name">Invalid user name</string>
+    <string name="error_invalid_password">At least 4 characters</string>
+    <string name="error_incorrect_password">Incorrect password</string>
+    <string name="error_no_name">Input your phone or email</string>
+    <string name="error_no_password">Input your password</string>
+    <string name="snackbar_forgot_password">Oh oh !</string>
+    <string name="snackbar_register">Oh oh !</string>
+    <!-- Map -->
+    <string name="title_map">Map</string>
+
+    <!-- Radar-->
+    <string name="title_radar">Radar</string>
+
+    <!-- Chart -->
+    <string name="title_chart">Beacon indoor positioning</string>
+    <string name="axis_label_time">Time in seconds</string>
+    <string name="axis_label_rssi">RSSI in dBm</string>
+    <string name="axis_label_rssi_filtered">Filtered RSSI in dBm</string>
+    <string name="axis_label_distance">Distance in meters</string>
+    <string name="axis_label_frequency">Frequency in Hz</string>
+    <string name="axis_label_variance">Variance in dBm</string>
+
+    <!-- Filter -->
+    <string name="title_filter">Filter</string>
+    <string name="filter_type">Beacon Type</string>
+    <string name="filter_minimum_rssi">@string/beacon_rssi</string>
+    <string name="filter_distance">@string/distance</string>
+    <string name="filter_distance_immediate">Immediate</string>
+    <string name="filter_distance_near">Near</string>
+    <string name="filter_distance_far">Far</string>
+    <string name="filter_uuid">@string/beacon_uuid</string>
+    <string name="filter_major">@string/beacon_major</string>
+
+    <!-- Menu -->
+    <string name="menu_filter">@string/title_filter</string>
+    <string name="menu_color">Coloring</string>
+    <string name="menu_color_by_instance">Instances</string>
+    <string name="menu_color_by_type">Types</string>
+    <string name="menu_color_by_property">Properties</string>
+    <string name="menu_value">Value</string>
+    <string name="menu_value_rssi">RSSI</string>
+    <string name="menu_value_rssi_filtered">RSSI (Filtered)</string>
+    <string name="menu_value_distance">Distance</string>
+    <string name="menu_value_frequency">Frequency</string>
+    <string name="menu_value_variance">Variance</string>
+
+    <!-- Errors -->
+    <string name="error_location_disabled">Location services disabled</string>
+    <string name="error_bluetooth_disabled">Bluetooth disabled</string>
+    <string name="action_enable">Enable</string>
+
+</resources>
