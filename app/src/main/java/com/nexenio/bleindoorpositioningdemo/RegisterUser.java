@@ -102,60 +102,7 @@ public class RegisterUser extends AppCompatActivity {
                     editor.putString("Password", password);
                     editor.apply();
 
-//                    JSONObject result = null;
-//                    try {
-//                        result = jSOnClassforData.forCallingServer(url, nameValuePairs);
-//                    } catch (JSONException e) {
-//                        e.printStackTrace();
-//                    }
 
-//        JSONArray jArray = new JSONArray(result.toString());
-//
-//        for(int i=0;i<jArray.length();i++) {
-//            String alldata = jArray.get(i).toString();
-//
-//            String datasplit[] = alldata.split("_");
-//            latilongidata.add(alldata);
-//
-//
-//
-//
-//        }
-
-
-//                    JSONArray jArray = null;
-//                    try {
-//                        jArray = result.getJSONArray("jsonarrayval");
-//                    } catch (JSONException e) {
-//                        // TODO Auto-generated catch block
-//                        e.printStackTrace();
-//                    }
-//
-//                    System.out.println("*****JARRAY*****" + jArray.length());
-//
-//                    for (int i = 0; i < jArray.length(); i++) {
-
-
-//                    JSONArray jArray = null;
-//                    try {
-//                        jArray = result.getJSONArray("jsonarrayval");
-//                    } catch (JSONException e) {
-//                        // TODO Auto-generated catch block
-//                        e.printStackTrace();
-//                    }
-//
-//                    System.out.println("*****JARRAY*****" + jArray.length());
-//
-//                    for (int i = 0; i < jArray.length(); i++) {
-
-
-//                    JSONObject json_data;
-//
-//                    try {
-//                        json_data = jArray.getJSONObject(0);
-//                        String bookName = json_data.getString("bookName");
-////                        String author = json_data.getString("author");
-////                        String publisher = json_data.getString("publisher");
                     String bookName="1";
                         if (bookName.equals("1")) {
                             Toast.makeText(RegisterUser.this, "User Added successfully", Toast.LENGTH_SHORT).show();
@@ -169,25 +116,6 @@ public class RegisterUser extends AppCompatActivity {
 
                             Toast.makeText(RegisterUser.this, "User not added", Toast.LENGTH_SHORT).show();
 
-                        }
-
-
-                        //  SplittingBooktime=bookName.split(",");
-
-//							 ArrayAdapter<String> adapter = new ArrayAdapter<String>(this,
-//					        		 R.layout.textview, SplittingBooktime);
-
-
-                        //  Toast.makeText(SelectingLcoation.this,"Doctor Available at "+ bookName, Toast.LENGTH_LONG).show();
-//                    } catch (JSONException e) {
-//                        // TODO Auto-generated catch block
-//                        e.printStackTrace();
-//                    }
-
-                    }
-
-
-                }
 
 //            }
         });
