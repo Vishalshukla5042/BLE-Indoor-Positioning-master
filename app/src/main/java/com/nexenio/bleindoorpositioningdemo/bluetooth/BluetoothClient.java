@@ -1,29 +1,4 @@
-package com.nexenio.bleindoorpositioningdemo.bluetooth;
 
-import android.app.Activity;
-import android.bluetooth.BluetoothAdapter;
-import android.bluetooth.BluetoothManager;
-import android.content.Context;
-import android.content.Intent;
-import android.util.Log;
-
-import com.nexenio.bleindoorpositioning.ble.advertising.AdvertisingPacket;
-import com.nexenio.bleindoorpositioning.ble.beacon.Beacon;
-import com.nexenio.bleindoorpositioning.ble.beacon.BeaconManager;
-import com.nexenio.bleindoorpositioning.ble.beacon.IBeacon;
-import com.nexenio.bleindoorpositioning.location.Location;
-import com.nexenio.bleindoorpositioning.location.provider.IBeaconLocationProvider;
-import com.polidea.rxandroidble.RxBleClient;
-import com.polidea.rxandroidble.scan.ScanResult;
-import com.polidea.rxandroidble.scan.ScanSettings;
-
-import androidx.annotation.NonNull;
-import rx.Observer;
-import rx.Subscription;
-
-/**
- * Created by steppschuh on 24.11.17.
- */
 
 public class BluetoothClient {
 
